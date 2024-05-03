@@ -133,6 +133,7 @@ void CPUInfo::init() {
 				bdi.cpuGeneration = CpuGeneration::TigerLake;
 				break;
 			case CPU_MODEL_ALDERLAKE_S:
+			case CPU_MODEL_ALDERLAKE_P:
 				bdi.cpuGeneration = CpuGeneration::AlderLake;
 				break;
 			case CPU_MODEL_RAPTORLAKE_S:
